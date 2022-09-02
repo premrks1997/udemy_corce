@@ -1,1 +1,3 @@
-another file created in feature-1 branch
+another file created in feature-2 branch
+
+feature-2 branch has added this content
