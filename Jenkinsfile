@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Buzz Buzz'
         echo 'hello'
+        sh 'echo "this is prem" > file1.txt'
       }
     }
 
