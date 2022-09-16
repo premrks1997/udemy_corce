@@ -11,7 +11,7 @@ pipeline {
 
     stage('Archiveing') {
       steps {
-        archiveArtifacts(artifacts: '/target/*.txt', fingerprint: true)
+        archiveArtifacts(artifacts: '**/*.txt', fingerprint: true)
       }
     }
 
