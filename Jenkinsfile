@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Buzz Buzz'
         echo 'hello'
+        echo 'gwlo'
       }
     }
 
